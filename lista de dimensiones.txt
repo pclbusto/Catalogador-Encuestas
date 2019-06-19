@@ -1,0 +1,143 @@
+texto	clases
+no habia	Falta de stock
+stock	Falta de stock
+no contaban	Falta de stock
+no queban mas	Falta de stock
+faltante	Falta de stock
+faltante	Falta de stock
+productos	Falta de stock
+talles	Falta de talles
+talles	Falta de talles
+numero	Falta de talles
+numeros	Falta de talles
+variedad	Falta variedad/ Baja calidad
+calidad	Falta variedad/ Baja calidad
+modelo	Falta variedad/ Baja calidad
+modelos	Falta variedad/ Baja calidad
+surtido	Falta variedad/ Baja calidad
+ofertas	Faltante de ofertas atractivas
+oferta	Faltante de ofertas atractivas
+promociones	Faltante de ofertas atractivas
+promocion	Faltante de ofertas atractivas
+beneficio	Faltante de ofertas atractivas
+beneficios	Faltante de ofertas atractivas
+probadores	Fila extensa para acceder al probador
+probador	Fila extensa para acceder al probador
+esperar	Fila extensa para acceder al probador
+interminable	Fila extensa para acceder al probador
+cola	Fila extensa para acceder al probador
+fila	Fila extensa para acceder al probador
+tiempo	Fila extensa para acceder al probador
+disponible	Fila extensa para acceder al probador
+larga	Fila extensa para acceder al probador
+largas	Fila extensa para acceder al probador
+colas	Fila extensa para acceder al probador
+filas	Fila extensa para acceder al probador
+cambiadores	Fila extensa para acceder al probador
+entrega	Home delirevy
+envio	Home delirevy
+entregar	Home delirevy
+cuotas	Inconformidad con el tipo de financiación
+cuota	Inconformidad con el tipo de financiación
+interes	Inconformidad con el tipo de financiación
+financiacion	Inconformidad con el tipo de financiación
+pago	Inconformidad con el tipo de financiación
+interese	Inconformidad con el tipo de financiación
+intereses	Inconformidad con el tipo de financiación
+pedido	on line
+internet	on line
+web	on line
+online	on line
+on line	on line
+on-line	on line
+retirarlo	on line
+entrega	on line
+CMR	CRM
+beneficio	CRM
+beneficios	CRM
+cambio	devoluciones
+devolución	devoluciones
+devoluciones	devoluciones
+cambios	devoluciones
+informacion	Disconformidad con el circuito
+sistema	Disconformidad con el circuito
+proceso	Disconformidad con el circuito
+cobraron	Error de personal
+facturado	Error de personal
+superviso	Error de personal
+reviso	Error de personal
+envuelvan	Error de personal
+facturacion	Error de personal
+caja	Falta amabilidad y actitud de servicio del cajero
+cajero	Falta amabilidad y actitud de servicio del cajero
+cajera	Falta amabilidad y actitud de servicio del cajero
+cajeras	Falta amabilidad y actitud de servicio del cajero
+cajeros	Falta amabilidad y actitud de servicio del cajero
+pagar	Falta amabilidad y actitud de servicio del cajero
+atencion	Falta amabilidad y actitud de servicio del cajero
+personal	cajeras Falta amabilidad y actitud de servicio del cajero
+vendedoras	Falta amabilidad y actitud de servicio del colaborador
+vendedores	Falta amabilidad y actitud de servicio del colaborador
+vendedora	Falta amabilidad y actitud de servicio del colaborador
+vendedor	Falta amabilidad y actitud de servicio del colaborador
+empleado	Falta amabilidad y actitud de servicio del colaborador
+empleada	Falta amabilidad y actitud de servicio del colaborador
+empleados	Falta amabilidad y actitud de servicio del colaborador
+sector	Falta amabilidad y actitud de servicio del colaborador
+encargado	Falta amabilidad y actitud de servicio del colaborador
+encargada	Falta amabilidad y actitud de servicio del colaborador
+probador	Falta amabilidad y actitud de servicio probador
+probadores	Falta amabilidad y actitud de servicio probador
+damas	Falta amabilidad y actitud de servicio probador
+caballeros	Falta amabilidad y actitud de servicio probador
+conocimiento	Falta de conocimiento del vendedor
+informado	Falta de conocimiento del vendedor
+desinformado	Falta de conocimiento del vendedor
+informada	Falta de conocimiento del vendedor
+desinformada	Falta de conocimiento del vendedor
+informadas	Falta de conocimiento del vendedor
+desinformadas	Falta de conocimiento del vendedor
+informados	Falta de conocimiento del vendedor
+desinformados	Falta de conocimiento del vendedor
+espacio	Falta de espacio dentro de la tienda
+espacios	Falta de espacio dentro de la tienda
+distribucion	Falta de espacio dentro de la tienda
+lugar	Falta de espacio dentro de la tienda
+edificio	espacio Falta de espacio dentro de la tienda
+escalera	espacio Falta de espacio dentro de la tienda
+escaleras	espacio Falta de espacio dentro de la tienda
+ascensor	espacio Falta de espacio dentro de la tienda
+ascensores	espacio Falta de espacio dentro de la tienda
+desorden	Falta de orden y limpieza en tienda
+desordenado	Falta de orden y limpieza en tienda
+desorganizada	Falta de orden y limpieza en tienda
+desorganizado	Falta de orden y limpieza en tienda
+amontonado	Falta de orden y limpieza en tienda
+amontonada	Falta de orden y limpieza en tienda
+encontrar	Falta de orden y limpieza en tienda
+poco	Falta de personal en piso
+falta	Falta de personal en piso
+aire acondicionados	Incomodidad con la temperatura
+aire acondicionado	Incomodidad con la temperatura
+calor	Incomodidad con la temperatura
+frio	Incomodidad con la temperatura
+temperatura	Incomodidad con la temperatura
+precios	Insatisfacción con los precios
+precio	Insatisfacción con los precios
+caro	Insatisfacción con los precios
+roto	Mal estado del producto
+rota	Mal estado del producto
+rotos	Mal estado del producto
+rotas	Mal estado del producto
+no funcionaba	Mal estado del producto
+fallado	Mal estado del producto
+fallada	Mal estado del producto
+anda mal	Mal estado del producto
+andaba mal	Mal estado del producto
+no tenia	Poca visibilidad de los precios
+sin precio	Poca visibilidad de los precios
+sin precios	Poca visibilidad de los precios
+no tenian	Poca visibilidad de los precios
+alarma	Producto con alarma
+sistema de seguridad	Producto con alarma
+alarmas	Producto con alarma
