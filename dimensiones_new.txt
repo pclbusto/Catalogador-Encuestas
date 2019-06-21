@@ -1,0 +1,14 @@
+index	texto
+1	no habia
+2	stock
+3	no contaban
+4	no queban mas
+5	faltante
+6	faltante
+7	productos
+8	talles
+9	talles
+10	numero
+11	numeros
+12	variedad
+13	calidad

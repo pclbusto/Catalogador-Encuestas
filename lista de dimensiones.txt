@@ -4,10 +4,10 @@ stock	Falta de stock
 no contaban	Falta de stock
 no queban mas	Falta de stock
 faltante	Falta de stock
-faltante	Falta de stock
+faltantes	Falta de stock
 productos	Falta de stock
 talles	Falta de talles
-talles	Falta de talles
+talle	Falta de talles
 numero	Falta de talles
 numeros	Falta de talles
 variedad	Falta variedad/ Baja calidad
@@ -51,10 +51,7 @@ online	on line
 on line	on line
 on-line	on line
 retirarlo	on line
-entrega	on line
 CMR	CRM
-beneficio	CRM
-beneficios	CRM
 cambio	devoluciones
 devolución	devoluciones
 devoluciones	devoluciones
@@ -86,8 +83,6 @@ empleados	Falta amabilidad y actitud de servicio del colaborador
 sector	Falta amabilidad y actitud de servicio del colaborador
 encargado	Falta amabilidad y actitud de servicio del colaborador
 encargada	Falta amabilidad y actitud de servicio del colaborador
-probador	Falta amabilidad y actitud de servicio probador
-probadores	Falta amabilidad y actitud de servicio probador
 damas	Falta amabilidad y actitud de servicio probador
 caballeros	Falta amabilidad y actitud de servicio probador
 conocimiento	Falta de conocimiento del vendedor

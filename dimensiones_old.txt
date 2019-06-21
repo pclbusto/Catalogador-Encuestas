@@ -1,0 +1,24 @@
+index	texto
+1	no había
+2	stock
+3	no contaban
+4	no queban más
+5	probadores
+6	esperar
+7	interminable
+8	cola
+9	fila
+10	tiempo
+11	disponible
+12	larga
+13	largas
+14	colas
+15	filas
+16	faltante
+17	productos
+18	cuotas
+19	cuota
+20	interés
+21	financiación
+22	promoción
+23	promociones
