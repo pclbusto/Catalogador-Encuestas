@@ -14,8 +14,10 @@ import sys
 lista_clasificaciones = []
 cantidad_hilos = 0
 MAX_CANTIDAD_HILOS = 2
-porcenta_procesado = 0
+cantidad_procesados = 0
 cantidad_total_a_procesar = 0
+procesando = True
+archivo_para_catalogar
 
 def allowSelfSignedHttps(allowed):
     # bypass the server certificate verification on client side
@@ -23,12 +25,12 @@ def allowSelfSignedHttps(allowed):
         ssl._create_default_https_context = ssl._create_unverified_context
 
 def clasificar_websv(texto, index):
-    global cantidad_hilos, lista_clasificaciones, porcenta_procesado, cantidad_total_a_procesar
+    global cantidad_hilos, lista_clasificaciones, cantidad_procesados, cantidad_total_a_procesar
     while cantidad_hilos > MAX_CANTIDAD_HILOS:
         time.sleep(5)
     cantidad_hilos += 1
     print("index: {} texto: {}:".format(index,texto))
-
+    cantidad_procesados +=1
 
     allowSelfSignedHttps(True) # this line is needed if you use self-signed certificate in your scoring service.
 
@@ -68,23 +70,42 @@ def clasificar_websv(texto, index):
         # print(result)
         lista_clasificaciones[index] = result
         cantidad_hilos -= 1
-        return result
+        # return result
     except urllib.error.HTTPError as error:
         print("The request failed with status code: " + str(error.code))
 
         # Print the headers - they include the requert ID and the timestamp, which are useful for debugging the failure
         print(error.info())
         print(json.loads(error.read().decode("utf8", 'ignore')))
+    win.progressBar.setValue(100*(cantidad_procesados/cantidad_total_a_procesar))
 
-def hola():
-    print("Hola")
-    fname = QFileDialog.getOpenFileName(None, 'Open file', '/home')
+def boton_cargar_archivo_click():
+    global cantidad_total_a_procesar, lista_clasificaciones, archivo_para_catalogar
+    fname = QFileDialog.getOpenFileName(None, 'Open file', 'C:\\Users\\pedro\\PycharmProjects\\Clasificador encuentas Gui')
+    archivo_para_catalogar = pd.read_csv(fname, sep='\t', header=0)
+    lista_clasificaciones = [""]*len(archivo_para_catalogar["Razón LTR"].values)
+    cantidad_total_a_procesar = len(lista_clasificaciones)
+
+def proceso_clasificacion():
+    global lista_clasificaciones, archivo_para_catalogar
+    for index, queja in enumerate(archivo_para_catalogar["Razón LTR"].values):
+        x = threading.Thread(target=clasificar_websv, args=(queja, index,))
+        x.start()
+
+def download():
+    global win
+    completed = 0
+    while completed < 100:
+        completed += 0.000001
+
+        win.progressBar.setValue(completed)
 
 app = QtWidgets.QApplication([])
 
 win = uic.loadUi("ventana_principal.ui")
 win.show()
-win.boton_cargar_archivo.clicked.connect(hola)
+win.boton_cargar_archivo.clicked.connect(boton_cargar_archivo_click)
+win.boton_clasificar.clicked.connect(download)
 # print(win.boton_cargar_archivo)
 sys.exit(app.exec())
 # archivo_para_catalogar = pd.read_csv("Detractores filtrado 3 clases.txt.tsv", sep='\t', header=0)

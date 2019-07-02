@@ -50,7 +50,7 @@
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="boton_clasificar">
        <property name="text">
         <string>Clasificar</string>
        </property>
@@ -101,7 +101,7 @@
  </widget>
  <tabstops>
   <tabstop>boton_cargar_archivo</tabstop>
-  <tabstop>pushButton_2</tabstop>
+  <tabstop>boton_clasificar</tabstop>
   <tabstop>pushButton_3</tabstop>
   <tabstop>pushButton_4</tabstop>
  </tabstops>
