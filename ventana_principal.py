@@ -17,7 +17,7 @@ MAX_CANTIDAD_HILOS = 2
 cantidad_procesados = 0
 cantidad_total_a_procesar = 0
 procesando = True
-archivo_para_catalogar
+archivo_para_catalogar = None
 
 def allowSelfSignedHttps(allowed):
     # bypass the server certificate verification on client side
@@ -80,9 +80,11 @@ def clasificar_websv(texto, index):
     win.progressBar.setValue(100*(cantidad_procesados/cantidad_total_a_procesar))
 
 def boton_cargar_archivo_click():
-    global cantidad_total_a_procesar, lista_clasificaciones, archivo_para_catalogar
+    global cantidad_total_a_procesar, lista_clasificaciones, archivo_para_catalogar, win
     fname = QFileDialog.getOpenFileName(None, 'Open file', 'C:\\Users\\pedro\\PycharmProjects\\Clasificador encuentas Gui')
-    archivo_para_catalogar = pd.read_csv(fname, sep='\t', header=0)
+    print(fname[0])
+    archivo_para_catalogar = pd.read_csv(fname[0], sep='\t', header=0)
+    win.label.setText(fname[0])
     lista_clasificaciones = [""]*len(archivo_para_catalogar["Razón LTR"].values)
     cantidad_total_a_procesar = len(lista_clasificaciones)
 
