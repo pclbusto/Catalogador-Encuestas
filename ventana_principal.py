@@ -66,7 +66,6 @@ def clasificar_websv(lista_texto):
         "GlobalParameters":  {
         }
     }
-    # print("lista:{}".format(len(lista_texto)))
     for index, texto in enumerate(lista_texto):
         data["Inputs"]["input1"].append({
                           'Idy': "{}".format(index),
